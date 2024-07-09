@@ -32,6 +32,7 @@ Transaction amounts are never stored as floats, they are not precise enough to a
 The statement print-out above should be considered a type of user interface, albeit a very simplistic one. Your system should probably output JSON so that various types of user interfaces can consume the data and present it in the appropriate way.
 
 #### Extensions
+
 - Ability to generate ordered bank statements between 2 dates
 - Reject withdrawals if the withdraw amount exceeds the available funds. Available funds must always be calculated based on a complete transaction history, not a variable or property that gets updated
 - Allow adding an overdraft to the account

@@ -1,0 +1,12 @@
+{
+  "name": "ood-bank-challenge",
+  "version": "1.0.0",
+  "description": "This challenge asks you to put into practice everything you've learned about object oriented programming. Use the concepts we've covered to help organise your code, keep things modular and easy to change.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
