@@ -8,7 +8,6 @@ This project is to practice object oriented programming.
 - Account statement (date, credit or debit amount, balance) printing
 - Create at least one test for every function
 - Ability to generate ordered bank statements between 2 dates
-- Reject withdrawals if the withdraw amount exceeds the available funds. Available funds must always be calculated based on a complete transaction history, not a variable or property that gets updated
 - Generate PDFs of bank statements
 - A front-end online banking app
 
