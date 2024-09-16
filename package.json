@@ -1,0 +1,22 @@
+{
+  "name": "ood-bank-challenge",
+  "version": "1.0.0",
+  "description": "This challenge helps you practice your OO design skills.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "build": "bash compile_ts_files.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.4",
+    "jasmine": "^5.1.0",
+    "typescript": "^5.1.6"
+  }
+}
