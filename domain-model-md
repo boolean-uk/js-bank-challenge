@@ -1,0 +1,22 @@
+js object Transaction
+PROPERTIES
+
+- amount: num
+- date: Date js object (new Date)
+- type: deposit/withdrawal
+
+class BankAccount
+PROPERTIES (constructor)
+-transactionList: Array[Transaction]
+-balance
+-date
+
+METHODS
+
+- deposit (amount: num, date: string) returns updated Array[Transaction]
+  if amount or date invalid, throws new Error(...)
+- withdrawal (amount: num, date: string) returns updated Array[Transaction]
+  if amount or date invalid, throws new Error(...)
+  if amount> current balance then throw Error(...)
+  -printStatement(potential start and end date) -> Array(strings) one string for each line in the statement
+  make sure transactions sorted from oldest at the bottom of statement

@@ -1,0 +1,25 @@
+{
+  "name": "ood-bank-challenge",
+  "version": "1.0.0",
+  "description": "This challenge helps you practice your OO design skills.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan2024/ood-bank-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan2024/ood-bank-challenge/issues"
+  },
+  "homepage": "https://github.com/Dan2024/ood-bank-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^4.0.2"
+  }
+}
