@@ -1,0 +1,29 @@
+{
+  "name": "ood-bank-challenge",
+  "version": "1.0.0",
+  "description": "This challenge helps you practice your OO design skills.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "test:watch": "nodemon --exec jasmine"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexLind/ood-bank-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexLind/ood-bank-challenge/issues"
+  },
+  "homepage": "https://github.com/AlexLind/ood-bank-challenge#readme",
+  "dependencies": {
+    "jasmine": "^4.5.0",
+    "nodemon": "^2.0.20"
+  }
+}
