@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jasmine": "^5.1.0",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "name": "ood-bank-challenge-1",
+  "description": "This challenge helps you practice your OO design skills.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
