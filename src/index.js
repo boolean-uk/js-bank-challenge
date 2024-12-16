@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Account_1 = require("./Account");
+var account = new Account_1.Account("1234");
+account.deposit(10000);
+account.deposit(3000);
+account.withdraw(4500);
+var accountBalance = account.calculateBalance();
+var bankStatement = account.generateBankStatements(new Date('2023-07-25'), new Date('2023-07-26'));
+var bankStatementNone = account.generateBankStatements(new Date('2023-07-20'), new Date('2023-07-21'));
