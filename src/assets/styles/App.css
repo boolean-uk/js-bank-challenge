@@ -1,0 +1,106 @@
+/* Global style */
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #F8EDFF;
+    text-decoration: none;
+}
+
+button {
+    width: 12rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 1px solid #3D3B40;
+}
+
+button:hover {
+    color: #F8EDFF;
+    background-color: #3D3B40;
+}
+
+/* Nav */
+nav {
+    color: #F8EDFF;
+    background-color: #525CEB;
+}
+
+nav ul {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+nav ul li {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr auto;
+    padding: 2rem;
+    gap: 0.5rem;
+}
+
+nav ul li:hover {
+    transition: all 200ms;
+    background-color: #3D3B40;
+}
+
+/* Account */
+#account {
+    display: grid;
+    justify-items: center;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+    gap: 2rem;
+}
+
+#account h2 {
+    align-self: end;
+}
+
+#account ul {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#account ul li {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 0.5rem;
+}
+
+#account ul li input {
+    width: 16rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+/* Deposit && Withdraw */
+.account-actions {
+    display: grid;
+    justify-items: center;
+    margin: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+    gap: 2rem;
+}
+
+.account-actions #transaction-date {
+    display: grid;
+    grid-template-rows: 2rem 2rem;
+    align-content: end;
+}
+
+.account-actions #amount {
+    display: grid;
+    grid-template-rows: 2rem 2rem;
+    align-content: center;
+}
+
+.account-actions input {
+    width: 24rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    align-self: center;
+}
